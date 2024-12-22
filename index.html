@@ -1,1 +1,460 @@
-update on 3/2025
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocket Soccer | Rocket Soccer Hacked</title>
+    <meta
+      name="description"
+      content="Rocket Soccer - Play Rocket Soccer Derby Unblocked. Play Now !"
+    />
+    <link rel="icon" type="image/png" href="/RC.png" />
+    <meta property="og:title" content="Rocket Soccer | Rocket Soccer Hacked" />
+    <meta
+      property="og:description"
+      content="Rocket Soccer - Play Rocket Soccer Derby Unblocked. Play Now!"
+    />
+    <meta property="og:image" content="/rocket-soccer.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rocket-soccer.github.io/" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #1a1a2e, #16213e);
+        color: white;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        margin-bottom: 20px;
+      }
+
+      .logo {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #ff4d4d;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3),
+          0 0 20px rgba(255, 77, 77, 0.5);
+        background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease;
+      }
+
+      .logo:hover {
+        transform: scale(1.05);
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5),
+          0 0 30px rgba(255, 77, 77, 0.7);
+      }
+
+      .nav-menu ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+
+      .nav-menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1em;
+        transition: color 0.3s;
+      }
+
+      .nav-menu a:hover {
+        color: #ff4d4d;
+      }
+
+      .main-game {
+        position: relative;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 30px;
+        aspect-ratio: 16/9;
+      }
+
+      .game-window {
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 10px;
+        background: #000;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      .game-tabs {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .game-tab {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+      }
+
+      .game-tab:hover {
+        background: rgba(255, 77, 77, 0.2);
+        transform: translateY(-5px);
+      }
+
+      .game-tab.active {
+        background: rgba(255, 77, 77, 0.3);
+        border: 2px solid #ff4d4d;
+      }
+
+      .game-tab img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      .game-tab h3 {
+        color: #ff4d4d;
+        margin-bottom: 5px;
+      }
+
+      .game-tab p {
+        font-size: 0.9em;
+        opacity: 0.8;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .game-container {
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      .main-game {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 30px;
+      }
+
+      .game-wrapper {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+      }
+
+      .game-wrapper.vertical {
+        padding-bottom: 177.78%;
+      }
+
+      .game-window {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 10px;
+        background: #000;
+      }
+
+      .game-window.vertical {
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+      }
+
+      .game-description {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .description-box {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        flex: 1;
+      }
+
+      .description-box h2 {
+        color: #ff4d4d;
+        margin-bottom: 10px;
+      }
+
+      .description-box p {
+        margin-bottom: 15px;
+        line-height: 1.6;
+      }
+
+      .description-box strong {
+        color: #ff6b6b;
+      }
+
+      .keywords {
+        margin-top: 20px;
+      }
+
+      .keywords h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+
+      .keywords ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .keywords li {
+        margin-bottom: 5px;
+        color: #ff6b6b;
+        opacity: 0.8;
+      }
+
+      .controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .control-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .key {
+        font-weight: bold;
+      }
+
+      .action {
+        opacity: 0.8;
+      }
+
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        height: 0;
+        overflow: hidden;
+      }
+
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html" class="logo">Rocket Soccer</a>
+        <nav class="nav-menu">
+          <ul>
+            <li>
+              <a href="/privacypolicy.html" target="_blank">Privacy Policy</a>
+            </li>
+            <li><a href="/termsofuse.html" target="_blank">Terms of Use</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="game-container">
+          <div class="main-game">
+            <div class="game-wrapper">
+              <iframe
+                class="game-window"
+                src="/rocket-soccer/index.html"
+                id="gameFrame"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="game-description">
+            <div class="description-box">
+              <h2>Rocket Soccer – The Ultimate Racing-Soccer Experience</h2>
+              <p>
+                <strong>Rocket Soccer</strong> is a thrilling game that combines
+                high-speed racing with intense soccer matches, delivering a
+                completely unique experience. In this game, you control
+                rocket-powered cars to participate in dynamic soccer battles.
+                Accelerate, unleash powerful shots, and perform amazing stunts
+                to score goals and secure victories.
+              </p>
+              <p>
+                With the <strong>Rocket Soccer Derby</strong> mode, players can
+                challenge themselves in fierce matches against competitive
+                opponents. Additionally, the
+                <strong>Rocket Soccer Derby Unblocked</strong> version allows
+                you to enjoy the game anywhere, even in restricted environments.
+                If you love high-speed action and challenging matches,
+                <strong>Rocket Soccer Unblocked</strong> is the perfect choice
+                for entertainment.
+              </p>
+
+              <section class="keywords">
+                <h2>Related Keywords</h2>
+                <ul>
+                  <li>Rocket Soccer</li>
+                  <li>Rocket Soccer Derby</li>
+                  <li>Rocket Soccer Derby Unblocked</li>
+                  <li>Rocket Soccer Unblocked</li>
+                </ul>
+              </section>
+            </div>
+
+            <div class="description-box">
+              <div class="video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/M-dSkMQecY4?si=jjrXiZ47mCMCqaTg"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-tabs">
+          <div
+            class="game-tab active"
+            data-game-url="/soccer-legends/index.html"
+          >
+            <img src="/soccer-legends/logo.png" alt="Soccer Legends" />
+            <h3>Soccer Legends</h3>
+          </div>
+
+          <div
+            class="game-tab active"
+            data-game-url="/soccer-online/index.html"
+          >
+            <img src="/soccer-online/icon-256.png" alt="Soccer Online" />
+            <h3>Soccer Online</h3>
+          </div>
+
+          <div
+            class="game-tab active"
+            data-game-url="/soccer-random/index.html"
+          >
+            <img src="/soccer-random/splash.png" alt="Soccer Random" />
+            <h3>Soccer Random</h3>
+          </div>
+
+          <div class="game-tab" data-game-url="/soccer-skills/index.html">
+            <img src="/soccer-skills/splash.png" alt="Soccer Skills" />
+            <h3>Soccer Skills</h3>
+          </div>
+
+          <div class="game-tab" data-game-url="/SoccerHeads/index.html">
+            <img src="/SoccerHeads/soccer-heads.png" alt="Soccer Heads" />
+            <h3>Soccer Heads</h3>
+          </div>
+
+          <div class="game-tab" data-game-url="/SoccerHeroes/index.html">
+            <img src="/SoccerHeroes/logo.png" alt="Soccer Heroes" />
+            <h3>Soccer Heroes</h3>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2024 Rocket Soccer. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script>
+      const gameTabs = document.querySelectorAll(".game-tab");
+      const gameFrame = document.getElementById("gameFrame");
+
+      gameTabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          // Remove active class from all tabs
+          gameTabs.forEach((t) => t.classList.remove("active"));
+
+          // Add active class to clicked tab
+          tab.classList.add("active");
+
+          // Load game URL in iframe
+          const gameUrl = tab.dataset.gameUrl;
+          gameFrame.src = gameUrl;
+        });
+      });
+
+      // Thêm script để tự động nhận diện và điều chỉnh tỷ lệ game
+      window.addEventListener("load", function () {
+        const gameFrame = document.getElementById("gameFrame");
+        const gameWrapper = gameFrame.parentElement;
+
+        // Hàm kiểm tra tỷ lệ game
+        function checkGameOrientation() {
+          if (gameFrame.contentWindow) {
+            const gameWidth = gameFrame.contentWindow.innerWidth;
+            const gameHeight = gameFrame.contentWindow.innerHeight;
+
+            if (gameHeight > gameWidth) {
+              // Game dọc
+              gameWrapper.classList.add("vertical");
+              gameFrame.classList.add("vertical");
+            } else {
+              // Game ngang
+              gameWrapper.classList.remove("vertical");
+              gameFrame.classList.remove("vertical");
+            }
+          }
+        }
+
+        // Kiểm tra sau khi game load
+        gameFrame.addEventListener("load", checkGameOrientation);
+
+        // Kiểm tra khi resize window
+        window.addEventListener("resize", checkGameOrientation);
+      });
+    </script>
+  </body>
+</html>
