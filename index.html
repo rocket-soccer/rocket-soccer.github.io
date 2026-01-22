@@ -521,6 +521,12 @@
           // Load game URL in iframe
           const gameUrl = tab.dataset.gameUrl;
           gameFrame.src = gameUrl;
+
+          // Scroll to game view
+          document.querySelector('.game-container').scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+          });
         });
       });
 
@@ -554,7 +560,6 @@
         window.addEventListener("resize", checkGameOrientation);
       });
     </script>
-    <script src="/games-noti/noti.js"></script>
     <script src="/Chat/notification.js"></script>
   </body>
 </html>
