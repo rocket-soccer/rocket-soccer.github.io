@@ -31,7 +31,6 @@
 {"domain": "arcade.pixellicious.com"},
 {"domain": "onlinegames.ro"},
 {"domain": "gamez.ro"},
-{"domain": "77unblockedgames.com"},
 {"domain": "games-66.com"},
 {"domain": "alltamashebi.ge"},
 {"domain": "oyunoynuyo.com"},
@@ -96,7 +95,6 @@
 {"domain": "sites.google.com"},
 {"domain": "googleusercontent.com"},
 {"domain": "gstatic.com"},
-{"domain": "unblockedgames66ez.com"},
 {"domain": "juegosgratisya.online"},
 {"domain": "freegamesnow.online"},
 {"domain": "web-game.online"},
@@ -224,4 +222,7 @@
 {"domain": "magbei.com"},
 {"domain": "zolagames.online"},
 {"domain": "y8.com"}
+{"domain": "rocket-soccer.github.io"},
+{"domain": "github.io"}
+{"domain": "rocketsoccer.net"}
 ]
